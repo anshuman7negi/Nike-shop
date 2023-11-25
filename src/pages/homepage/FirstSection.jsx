@@ -39,7 +39,7 @@ const FirstSection = () => {
                     </p>
                 </div>
             </section>
-            <div className="h-[90vh] bg-orange-400 md:hidden flex items-end pl-5">
+            <div className="h-[70vh] bg-orange-400 md:hidden flex items-end pl-5">
             <p className="md:hidden flex flex-col text-[7rem] md:text-[9rem] leading-[1] font-bold md:text-white/10 w-full md:absolute left-0 z-0">
                         <span>JUST</span>
                         <span>DO</span>
