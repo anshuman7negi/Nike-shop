@@ -5,7 +5,7 @@ const SecondSection = () => {
     return(
         <>
         <section className="flex flex-col items-center relative py-8 h-[70vh]">
-            <p className="beast text-[1.2rem] sm:text-2xl font-bold tracking-widest animate-bounce">
+            <p className="hidden sm:block beast text-[1.2rem] sm:text-2xl font-bold tracking-widest animate-bounce">
                     UNLEASH THE BEAST
                 </p>
                 <p className="text-[5rem] bottom-[10%] right-[10%] sm:right-auto absolute nike font-black text-white/10 md:font-extrabold md:top-[15%] md:text-[18rem] lg:text-[26rem] lg:top-0 sm:text-[15rem] sm:top-[25%]">

@@ -32,14 +32,20 @@ const FirstSection = () => {
                 </div>
                 <div className="flex flex-col md:relative items-center justify-center pl-3">
                     <img src={nike} alt="" className="max-h-[500px] z-20 object-scale-down" />
-                    <p className="flex flex-col text-[7rem] md:text-[9rem] leading-[1] font-bold md:text-white/10 w-full md:absolute left-0 z-0">
+                    <p className="hidden md:flex flex-col text-[7rem] md:text-[9rem] leading-[1] font-bold md:text-white/10 w-full md:absolute left-0 z-0">
                         <span>JUST</span>
                         <span>DO</span>
                         <span>IT</span>
                     </p>
                 </div>
             </section>
-            <div className="min-h-screen bg-orange-400 md:hidden"></div>
+            <div className="h-[90vh] bg-orange-400 md:hidden flex items-end pl-5">
+            <p className="md:hidden flex flex-col text-[7rem] md:text-[9rem] leading-[1] font-bold md:text-white/10 w-full md:absolute left-0 z-0">
+                        <span>JUST</span>
+                        <span>DO</span>
+                        <span>IT</span>
+                    </p>
+            </div>
         </>
     )
 }
