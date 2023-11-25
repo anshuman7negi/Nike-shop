@@ -1,11 +1,17 @@
 import FirstSection from "../homepage/FirstSection"
-
+import FourthSection from "../homepage/FourthSection";
+import SecondSection from "../homepage/SecondSection";
+import ThirdSection from "../homepage/ThirdSection";
+import Footer from "./Footer";
 
 const Main = () => {
     return (
         <div className="bg-gray-900 text-white">
             <FirstSection/>
-            <div className="min-h-screen bg-orange-400"></div>
+            <SecondSection/>
+            <ThirdSection/>
+            <FourthSection/>
+            <Footer/>
         </div>
     )
 }
