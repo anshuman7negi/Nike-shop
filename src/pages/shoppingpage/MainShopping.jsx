@@ -1,8 +1,11 @@
+import FirstCard from "./FirstCard";
 
 
 const MainShopping = () => {
     return (
-        <h1>this is shopping page</h1>
+        <div className="bg-gray-900 text-white min-h-screen p-6">
+            <FirstCard/>
+        </div>
     )
 }
 
