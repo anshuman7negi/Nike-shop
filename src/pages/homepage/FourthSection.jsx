@@ -15,7 +15,7 @@ const FourthSection = () => {
                    <span>50%</span>
                    <span>OFF</span>
                 </p>
-                <p className="absolute top-[5%]  text-3xl sm:text-4xl md:text-6xl font-bold text-red-600">
+                <p className="absolute top-[5%]  text-3xl sm:text-4xl md:text-6xl text-red-600 font-extrabold">
                     Special <span className="text-white">OFFer</span>
                 </p>
             </div>
