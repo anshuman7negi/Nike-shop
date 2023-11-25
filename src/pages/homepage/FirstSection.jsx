@@ -26,7 +26,7 @@ const FirstSection = () => {
                             489$
                         </span>
                         <button className="bg-orange-500 p-2 font-bold rounded-lg text-lg">
-                            <a href="">BUY NOW</a>
+                            <a href="/shopping">BUY NOW</a>
                         </button>
                     </div>
                 </div>
