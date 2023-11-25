@@ -1,19 +1,17 @@
-import FirstSection from "../homepage/FirstSection"
-import FourthSection from "../homepage/FourthSection";
-import SecondSection from "../homepage/SecondSection";
-import ThirdSection from "../homepage/ThirdSection";
-import Footer from "./Footer";
+// import MainHomepage from "../homepage/MainHompage";
+// import MainShopping from "../shoppingpage/MainShopping";
+// import Footer from "./Footer";
+// import Navbar from "./Navbar";
 
-const Main = () => {
-    return (
-        <div className="bg-gray-900 text-white">
-            <FirstSection/>
-            <SecondSection/>
-            <ThirdSection/>
-            <FourthSection/>
-            <Footer/>
-        </div>
-    )
-}
+// const Main = () => {
+//     return (
+//         <div className="bg-gray-900 text-white">
+//             <Navbar/>
+//             <MainHomepage/>
+//             <MainShopping/>
+//             <Footer/>
+//         </div>
+//     )
+// }
 
-export default Main;
+// export default Main;
