@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-item::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 100%;
+    width: 0;
+    height: 4px;
+    background-color: #ec5242;
+    opacity: 0;
+    transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.nav-item:hover::after {
+    opacity: 1;
+    width: 100%;
+    left: 0;
+}
