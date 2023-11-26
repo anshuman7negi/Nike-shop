@@ -3,7 +3,7 @@ import circle from './../../assets/circlebg.png'
 
 const SecondCard = () => {
     return(
-        <section className="grid md:grid-cols-2 border rounded p-2">
+        <section className="carousel-card grid md:grid-cols-2 border rounded p-2">
             <div className='flex flex-col justify-between items-center pb-7'>
                 <div className="text-5xl font-extrabold m-auto md:rotate-[-20deg]">
                     <p className="text-lg font-bold">Vintage Collection</p>
