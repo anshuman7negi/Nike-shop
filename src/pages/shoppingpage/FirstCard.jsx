@@ -1,10 +1,10 @@
-import shoesFirst from './../../assets/firstcardimage.svg'
+import shoes from './../../assets/ShoeSection2.svg'
 import circle from './../../assets/circlebg.png'
 
 const FirstCard = () => {
     return (
-        <section className="grid md:grid-cols-2 border rounded p-2">
-            <div className='flex flex-col justify-between items-center pb-7'>
+        <section className="carousel-card grid md:grid-cols-2 border rounded p-2">
+            <div className='flex flex-col justify-between items-center pb-7 z-0'>
                 <div className="text-5xl font-extrabold m-auto md:rotate-[-20deg]">
                     <p className="text-lg font-bold">Vintage Collection</p>
                     <h2 className="text-[#FFB800]">SNEAKERS</h2>
@@ -16,8 +16,8 @@ const FirstCard = () => {
                 </div>
             </div>
             <div className="relative flex items-center justify-center">
-                <img src={shoesFirst} alt="" className="max-h-[300px] z-20" />
-                <img src={circle} alt="background circle" className="absolute max-h-[200px] top-[5%] z-0 rotate-[-20deg]" />
+                <img src={shoes} alt="" className="max-h-[300px] z-20 rotate-[50deg]" />
+                <img src={circle} alt="background circle" className="absolute max-h-[200px] top-[5%] z-0 rotate-[20deg]" />
             </div>
         </section>
     )
